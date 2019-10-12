@@ -2,7 +2,7 @@
 /* jshint node: true */
 "use strict";
 
-// Asynchronous utility function to data retrieval
+// Asynchronous utility function for data retrieval
 async function getData(url) {
   return fetch(url)
     .then(response => response.json())
